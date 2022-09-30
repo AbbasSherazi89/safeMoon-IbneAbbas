@@ -1,0 +1,265 @@
+
+body{
+
+  background-image: url("./Media/bgImage.jfif");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.hero1_container{
+  padding-top: 10rem;
+}
+
+
+.warning_div
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #602c27;
+}
+.btn-consolidatev2{
+  animation: myAnim 5s ease 0s 1 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.logo_image{
+  border-radius: 50% !important;
+}
+.nav-link{
+  font-weight: bold !important;
+}
+
+.container-fluid .navbar{
+  height: 100px;
+}
+.warn_icon{
+  font-size: 2rem !important;
+  margin-right: 1rem;
+}
+
+// .custom-nav .custom-navbar{
+//   height: 100px;
+// }
+.text-info{
+  font-size: 50px;
+  margin-left: 1rem;
+}
+.text-info:hover{
+  background-color:darkcyan;
+  opacity: 60%;
+}
+
+.typing-text{
+  display: inline-block;
+  height: 64px;
+  font-size: 60px!important;
+  padding-right: 8px;
+  // border-right: 3px solid #008a81;
+  -webkit-animation: blink 1s step-start infinite;
+  animation: blink 1s step-start infinite;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+  line-height: 1em;
+  font-weight: 700;
+  font-family:'Times New Roman', Times, serif
+}
+.btn-info{
+  background-color: darkcyan !important;
+}
+.world_div{
+  padding-top: 08rem;
+}
+.copy_link{
+  color: darkcyan;
+}
+.cat{
+  color: darkcyan;
+
+}
+.img_store{
+  height: 3rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.image-space{
+  border-radius: 50%;
+}
+.title-heading {
+  font-size: 2rem!important;
+  font-weight: 700;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.list-large {
+  font-size: 20px;
+}
+
+.custom-list {
+  list-style: none;
+  margin: 0;
+  line-height: 1em;
+}
+.mb-0 {
+  margin-bottom: 0!important;
+}
+ol, ul {
+  padding-left: 2rem;
+}
+
+.about-icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color: var(--about-icon-bg);
+  color: var(--about-icon-color);
+  font-size: 33px;
+  border-radius: 5px;
+}
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+*{
+  box-sizing: border-box;
+}
+.fw-bold {
+  font-weight: 700!important;
+}
+.h4, h4 {
+  font-size: calc(1.275rem + .3vw);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text-highlight {
+  color: darkcyan;
+}
+.fw-b {
+  font-weight: 700;
+}
+a {
+  color:darkcyan;
+  text-decoration: none;
+}
+
+.fad {
+  position: relative;
+  font-family: Font Awesome\ 5 Duotone!important;
+  font-weight: 900;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.app {
+  overflow: hidden;
+  position: relative;
+  background-image: url("./Media/bgapp_image.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: fixed;
+  padding: 0px 0;
+}
+
+.footer{
+  background-color: rgb(36, 36, 36);
+  color:white;
+}
+
+// .video-header {
+//   position: absolute;
+//   top: -150px;
+//   bottom: 0;
+//   width: 1920px;
+//   left: 50%;
+//   margin-left: -960px;
+//   right: 0;
+//   overflow: hidden;
+// }
+.bg_warning{
+  color: white;
+  background-color: #602c27;
+  padding: 10px 16px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: flex-start;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+
+.WarningEvolved_text__3l4Ra{
+  margin-left: 20px;
+}
+.intro_btn{
+  background-color: rgb(59, 59, 59);
+  color:darkcyan;
+  border-radius: 10%;
+  height: 2.5rem;
+  font-weight: bold;
+}
+
+
+@media only screen and (min-width: 600px){
+  .hero1_container{
+    height: 800px;
+  }
+}
