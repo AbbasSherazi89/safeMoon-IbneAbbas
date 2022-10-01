@@ -1,7 +1,6 @@
 import React from "react";
 import { ImWarning } from "react-icons/im";
 import { FaCopy } from "react-icons/fa";
-import Typed from 'react-typed';
 const Hero1 = () => {
   return (
     <>
@@ -27,12 +26,8 @@ const Hero1 = () => {
           <div className="row mt-4 mb-5">
             <div className="col-lg-6">
               <p className="text-uppercase"> welcome to </p>
-              <div className="text-uppercase typing-text mb-3">
-              <Typed
-                    strings={['SAFEMOON']}
-                    typeSpeed={90}
-                    
-                />
+              <div className="text-uppercase typing-text">
+              <h1>safemoon</h1>
               </div>
               <p className="">Community-driven Innovation for Good</p>
 
